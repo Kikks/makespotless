@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default Font Family */
+@font-face {
+  font-family: 'Cabin-Bold';
+  src: url(../assets/fonts/cabin/Cabin-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin-Medium';
+  src: url(../assets/fonts/cabin/Cabin-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin-Regular';
+  src: url(../assets/fonts/cabin/Cabin-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin-SemiBold';
+  src: url(../assets/fonts/cabin/Cabin-SemiBold.ttf) format('truetype');
+}
+* {
+  transition: all 0.3s;
+}
+
+@layer base {
+  html {
+    font-family: Cabin-Regular, sans-serif;
+    color: #111;
+    scroll-behavior: smooth;
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.max {
+  max-width: 1300px;
+}
+
+/* Canvas Component */
+.backdrop {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.select {
+  height: 48px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url('../assets/images/Header.jpg') center center;
+  background-size: cover;
+}
+
+.swipe {
+  width: 100%;
+  padding: 10rem;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.swipe-1 {
+  background-image: url('../assets/images/swipe-1.jpg');
+}
+
+.swipe-2 {
+  background-image: url('../assets/images/swipe-2.jpg');
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
