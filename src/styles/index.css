@@ -70,6 +70,15 @@
   background-position: center center;
 }
 
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  .swipe {
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 10rem;
+  }
+}
+
 .swipe-1 {
   background-image: url('../assets/images/swipe-1.jpg');
 }

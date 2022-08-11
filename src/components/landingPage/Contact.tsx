@@ -20,8 +20,9 @@ const Contact = () => {
             <div className="grid w-full gap-1">
               <label className="font-cabinBold text-xs uppercase">Name</label>
               <input
+                type="text"
                 placeholder="Type in your name here"
-                className="flex-1 border-transparent bg-gray-100 bg-transparent px-4 py-3 font-cabinRegular text-sm text-gray-600 focus:text-gray-900 focus:outline-none"
+                className="flex-1 border-none bg-gray-100 px-4 py-3 font-cabinRegular text-sm text-gray-600 focus:text-gray-900 focus:outline-none"
               />
             </div>
 
@@ -32,7 +33,7 @@ const Contact = () => {
               <input
                 type="email"
                 placeholder="Type in your email here"
-                className="flex-1 border-transparent bg-gray-100 bg-transparent px-4 py-3 font-cabinRegular text-sm text-gray-600 focus:text-gray-900 focus:outline-none"
+                className="flex-1 border-none bg-gray-100 px-4 py-3 font-cabinRegular text-sm text-gray-600 focus:text-gray-900 focus:outline-none"
               />
             </div>
 
@@ -43,7 +44,7 @@ const Contact = () => {
               <textarea
                 placeholder="Tell me about what you want to create"
                 rows={6}
-                className="flex-1 resize-none border-transparent bg-gray-100 bg-transparent px-4 py-3 font-cabinRegular text-sm text-gray-600 focus:text-gray-900 focus:outline-none"
+                className="flex-1 resize-none border-none bg-gray-100 px-4 py-3 font-cabinRegular text-sm text-gray-600 focus:text-gray-900 focus:outline-none"
               />
             </div>
 
