@@ -34,7 +34,7 @@ const Navbar = () => {
       <nav className="static top-0 left-0 z-10 flex w-full items-center justify-center bg-white p-2 px-5 lg:sticky">
         <div className="mx-auto flex w-full max-w-[1000px] items-center justify-between">
           <Link to="/">
-            <figure className="aspect-square w-[6.5vw] min-w-[50px] max-w-[100px]">
+            <figure className="aspect-square w-[6.5vw] min-w-[70px] max-w-[100px]">
               <img src="/logo192.png" alt="Makespotless Logo" />
             </figure>
           </Link>

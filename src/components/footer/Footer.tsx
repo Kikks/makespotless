@@ -45,10 +45,6 @@ const Footer = () => {
 
               <div className="flex flex-wrap justify-center gap-3 md:flex-nowrap md:justify-start">
                 <a href="mailto:info@makespotless.com">info@makespotless.com</a>
-                | {''}
-                <a href="mailto:charles@makespotless.com">
-                  charles@makespotless.com
-                </a>
               </div>
             </div>
           </div>
