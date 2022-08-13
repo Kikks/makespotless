@@ -34,7 +34,7 @@ const Footer = () => {
               </h4>
 
               <span>
-                NO. 6, Victor Aneme Street, Opposite Cemotaph Behind Macdons,
+                NO. 6, Victor Anene Street, Opposite Cenotaph Behind Macdons,
                 G.R.A, Asaba, Delta State, Nigeria.
               </span>
 
