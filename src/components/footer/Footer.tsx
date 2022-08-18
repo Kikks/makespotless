@@ -41,7 +41,9 @@ const Footer = () => {
               <span>
                 Benin address:
                 <br />
-                23, Osasogie street off Sapele Road, Ekae Benin city
+                - 23, Osasogie street off Sapele Road, Ekae Benin city
+                <br />- NO. 6, Victor Anene Street, Opposite Cenotaph Behind
+                Macdons, G.R.A, Asaba, Delta State, Nigeria.
               </span>
 
               <div className="flex justify-center gap-3 md:justify-start">
