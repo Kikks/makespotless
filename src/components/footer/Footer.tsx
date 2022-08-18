@@ -34,16 +34,21 @@ const Footer = () => {
               </h4>
 
               <span>
+                Asaba address:
+                <br />
+                NO. 6, Victor Anene Street, Opposite Cenotaph Behind Macdons,
+                G.R.A, Asaba, Delta State, Nigeria.
+              </span>
+
+              <span>
                 Lagos address:
-                <br />9 Adenubi close, off Allen Avenue, Ikeja Lagos
+                <br />9 Adenubi close, off Allen Avenue, Ikeja Lagos.
               </span>
 
               <span>
                 Benin address:
                 <br />
-                - 23, Osasogie street off Sapele Road, Ekae Benin city
-                <br />- NO. 6, Victor Anene Street, Opposite Cenotaph Behind
-                Macdons, G.R.A, Asaba, Delta State, Nigeria.
+                23, Osasogie street off Sapele Road, Ekae, Benin city.
               </span>
 
               <div className="flex justify-center gap-3 md:justify-start">
