@@ -28,7 +28,7 @@ const Footer = () => {
               </a>
             </div>
 
-            <div className="grid w-full max-w-[300px] gap-5 md:w-auto md:gap-3">
+            <div className="grid w-full max-w-[300px] gap-7 md:w-auto md:gap-3">
               <h4 className="mb-2 font-cabinBold text-lg uppercase lg:text-xl">
                 Reach Out
               </h4>
