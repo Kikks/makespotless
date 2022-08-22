@@ -4,60 +4,69 @@ const Footer = () => {
   return (
     <footer className="flex w-full items-center justify-center">
       <div className="container flex flex-col">
-        <div className="mx-auto flex w-full max-w-[1100px] flex-col items-center justify-between gap-20 p-5 py-20 md:gap-20 md:p-20 lg:flex-row lg:gap-20 lg:py-20 lg:px-10">
-          <Link to="/">
-            <figure className="aspect-square w-[15vw] min-w-[120px] max-w-[150px]">
-              <img src="/logo192.png" alt="Makespotless Logo" />
-            </figure>
-          </Link>
+        <div className="mx-auto flex w-full max-w-[1100px] flex-col items-start p-5 py-20 text-center md:p-20 lg:py-20 lg:px-10 lg:text-left">
+          <div className="flex w-full flex-col items-center justify-between gap-20 lg:flex-row lg:items-start lg:gap-5">
+            <div className="grid gap-10 lg:min-w-[300px]">
+              <Link to="/" className="justify-self-start">
+                <figure className="aspect-square w-[15vw] min-w-[120px] max-w-[150px]">
+                  <img src="/logo192.png" alt="Makespotless Logo" />
+                </figure>
+              </Link>
 
-          <div className="flex flex-col items-center gap-20 text-center md:flex-row md:items-start md:gap-16 md:text-left lg:gap-20">
-            <div className="grid max-w-[300px] gap-3">
-              <h4 className="mb-2 font-cabinBold text-lg uppercase lg:text-xl">
-                Pages
-              </h4>
+              <hr />
 
-              <a href="#about" className="uppercase">
-                About
-              </a>
-              <a href="#about" className="uppercase">
-                Services
-              </a>
-              <a href="#about" className="uppercase">
-                Contact Us
-              </a>
+              <div className="flex flex-col gap-3">
+                <h4 className="mb-2 font-cabinBold text-lg uppercase lg:text-xl">
+                  Pages
+                </h4>
+
+                <a
+                  href="#about"
+                  className="hover:text-primary-main hover:underline"
+                >
+                  About
+                </a>
+                <a
+                  href="#services"
+                  className="hover:text-primary-main hover:underline"
+                >
+                  Services
+                </a>
+                <a
+                  href="#contact"
+                  className="hover:text-primary-main hover:underline"
+                >
+                  Contact Us
+                </a>
+              </div>
             </div>
 
-            <div className="grid w-full max-w-[300px] gap-7 md:w-auto md:gap-3">
+            <div className="grid w-full max-w-[500px] flex-1 items-center gap-7 md:w-auto md:gap-5 lg:items-stretch">
               <h4 className="mb-2 font-cabinBold text-lg uppercase lg:text-xl">
                 Reach Out
               </h4>
 
-              <span>
-                Asaba address:
-                <br />
-                NO. 6, Victor Anene Street, Opposite Cenotaph Behind Macdons,
-                G.R.A, Asaba, Delta State, Nigeria.
-              </span>
-
-              <span>
-                Lagos address:
-                <br />9 Adenubi close, off Allen Avenue, Ikeja Lagos.
-              </span>
-
-              <span>
-                Benin address:
-                <br />
-                23, Osasogie street off Sapele Road, Ekae, Benin city.
-              </span>
-
-              <div className="flex justify-center gap-3 md:justify-start">
-                <a href="tel:+2348062154930">+2348062154930,</a>
-                <a href="tel:+2348119131252">+2348119131252</a>
+              <div className="flex flex-col gap-1">
+                <h3 className="font-cabinBold text-lg">Asaba</h3>
+                <span>
+                  6, Victor Anene street, opposite Cenotaph behind Macdons,
+                  G.R.A, Asaba, Delta State, Nigeria.
+                </span>
+                <a href="tel:+2348062154930">+234 806 215 4930</a>
               </div>
 
-              <div className="flex flex-wrap justify-center gap-3 md:flex-nowrap md:justify-start">
-                <a href="mailto:info@makespotless.com">info@makespotless.com</a>
+              <div className="flex flex-col gap-1">
+                <h3 className="font-cabinBold text-lg">Lagos</h3>
+                <span>9 Adenubi close, off Allen Avenue, Ikeja Lagos</span>
+                <a href="tel:+2342348147910009">+234 814 791 0009</a>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <h3 className="font-cabinBold text-lg">Benin</h3>
+                <span>
+                  23, Osasogie street off Sapele Road, Ekae, Benin city.
+                </span>
+                <a href="tel:+2349132019252">+234 913 201 9252 </a>
               </div>
             </div>
           </div>
