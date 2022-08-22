@@ -52,13 +52,16 @@ const Footer = () => {
                   6, Victor Anene street, opposite Cenotaph behind Macdons,
                   G.R.A, Asaba, Delta State, Nigeria.
                 </span>
-                <a href="tel:+2348062154930">+234 806 215 4930</a>
+                <div className="flex gap-3">
+                  <a href="tel:+2348062154930">+234 806 215 4930,</a>
+                  <a href="tel:+2348119131252">+234 811 913 1252</a>
+                </div>
               </div>
 
               <div className="flex flex-col gap-1">
                 <h3 className="font-cabinBold text-lg">Lagos</h3>
                 <span>9 Adenubi close, off Allen Avenue, Ikeja Lagos</span>
-                <a href="tel:+2342348147910009">+234 814 791 0009</a>
+                <a href="tel:+2348147910009">+234 814 791 0009</a>
               </div>
 
               <div className="flex flex-col gap-1">
@@ -66,7 +69,7 @@ const Footer = () => {
                 <span>
                   23, Osasogie street off Sapele Road, Ekae, Benin city.
                 </span>
-                <a href="tel:+2349132019252">+234 913 201 9252 </a>
+                <a href="tel:+2349132019252 ">+234 913 201 9252</a>
               </div>
             </div>
           </div>
