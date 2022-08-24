@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import { MdFacebook } from 'react-icons/md';
+import { AiFillInstagram } from 'react-icons/ai';
 
 const Footer = () => {
   return (
@@ -12,6 +14,34 @@ const Footer = () => {
                   <img src="/logo192.png" alt="Makespotless Logo" />
                 </figure>
               </Link>
+
+              <hr />
+
+              <div className="flex flex-col gap-3">
+                <h4 className="mb-2 font-cabinBold text-lg uppercase lg:text-xl">
+                  Follow Us
+                </h4>
+
+                <div className="flex justify-center gap-3 lg:justify-start">
+                  <a
+                    href="https://www.facebook.com/109342778560619/posts/pfbid0fCSMzyr2bFSd2drCcGHPmFSgf1ydPDvYeMSqxtvfsYrrCEeuwwxUsrTHcHBXcxJRl/?sfnsn=scwspmo"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="duration-200 hover:-rotate-2 hover:scale-125"
+                  >
+                    <MdFacebook className="text-3xl text-primary-main" />
+                  </a>
+
+                  <a
+                    href="https://www.instagram.com/invites/contact/?i=ht9qddex8i0h&utm_content=p4nn17c"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="duration-200 hover:-rotate-2 hover:scale-125"
+                  >
+                    <AiFillInstagram className="text-3xl text-primary-main" />
+                  </a>
+                </div>
+              </div>
 
               <hr />
 
@@ -52,7 +82,7 @@ const Footer = () => {
                   6, Victor Anene street, opposite Cenotaph behind Macdons,
                   G.R.A, Asaba, Delta State, Nigeria.
                 </span>
-                <div className="flex gap-3">
+                <div className="flex w-full justify-center gap-3 text-center lg:w-auto lg:justify-start">
                   <a href="tel:+2348062154930">+234 806 215 4930,</a>
                   <a href="tel:+2348119131252">+234 811 913 1252</a>
                 </div>
