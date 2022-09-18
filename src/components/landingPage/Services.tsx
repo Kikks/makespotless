@@ -54,7 +54,7 @@ const Services = () => {
           <h2 className="text-2xl lg:text-3xl">Our Services</h2>
         </div>
 
-        <div className="grid grid-cols-1 gap-20 md:grid-cols-2 md:gap-10 lg:grid-cols-3 2xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-20 sm:grid-cols-2 md:gap-10 lg:grid-cols-3 2xl:grid-cols-4">
           {services.map((service, index) => (
             <div key={index} className="col-span-1 flex w-full flex-col gap-5">
               <figure className="group aspect-square w-full overflow-hidden rounded-md">

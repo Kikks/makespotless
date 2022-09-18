@@ -60,7 +60,7 @@ const Navbar = () => {
 
       <div
         className={`fixed top-0 left-0 flex h-full min-h-[500px] w-full flex-col items-center justify-center gap-10 bg-white text-center md:hidden ${
-          open ? 'translate-y-0' : '-translate-y-[100vh]'
+          open ? 'translate-y-0' : '-translate-y-[150vh]'
         }`}
       >
         <MdClose
